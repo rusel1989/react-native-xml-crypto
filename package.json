@@ -1,12 +1,14 @@
 {
-  "name": "xml-crypto",
-  "version": "0.8.4",
-  "description": "Xml digital signature and encryption library for Node.js",
+  "name": "react-native-xml-crypto",
+  "version": "0.0.1",
+  "description": "Xml digital signature and encryption library for React Native",
   "engines": {
-    "node": ">=0.4.0"
+    "node": ">=4.0.0"
   },
-  "author": "Yaron Naveh (yaronn01@gmail.com, http://webservices20.blogspot.com/)",
+  "author": "Jakub Martyčák (martycakjakub@gmail.com, https://github.com/rusel1989/)",
   "dependencies": {
+    "react-native-crypto": "^2.0.1",
+    "react-native-randombytes": "^2.1.0",
     "xmldom": "=0.1.19",
     "xpath.js": ">=0.0.3"
   },
@@ -15,13 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaronn/xml-crypto.git"
+    "url": "https://github.com/rusel1989/react-native-xml-crypto"
   },
   "main": "./index.js",
   "directories": {
     "lib": "./lib"
   },
   "keywords": [
+    "react-native",
     "xml",
     "digital signature",
     "xml encryption",
@@ -34,6 +37,6 @@
     }
   ],
   "scripts": {
-    "test": "nodeunit ./test/canonicalization-unit-tests.js ./test/c14nWithComments-unit-tests.js ./test/signature-unit-tests.js ./test/saml-response-test.js ./test/signature-integration-tests.js ./test/document-test.js ./test/wsfed-metadata-test.js ./test/hmac-tests.js"
+    "test": ""
   }
 }
